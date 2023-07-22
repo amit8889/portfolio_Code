@@ -1,0 +1,25 @@
+.whats-app {
+    position: fixed;
+
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 15px;
+   
+    
+   border-radius: 50px;
+   
+   transition: all 0.5s linear;
+    z-index: 100;
+}
+
+
+.whats-app:hover{
+    width: 70px;
+    height: 70px;
+    bottom: 45px;
+    right: 20px;
+    
+   
+}
+

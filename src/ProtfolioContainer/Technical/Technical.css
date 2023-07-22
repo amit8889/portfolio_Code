@@ -1,0 +1,82 @@
+.technica_container{
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--heading);
+}
+
+.technical_text{ 
+   
+    border-radius: 5px;
+    background-image: url('../../assets/Home/bg.jpg');
+    box-sizing: border-box;
+    color: white;
+    box-shadow:0 0  15px gray;
+    width:90%;
+    margin-top: 30px;
+   
+   
+
+}
+.datast_text_technical{
+   
+    display: flex;
+}
+
+.technical_text{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+  
+    
+}
+.technical_text>div{
+    text-align: center;
+    width: 20%;
+    margin-left: 3rem;
+    min-width: 300px;
+}
+.datast_text_technical>div{
+    transform: translateY(15px);
+}
+
+.datast_text_technical>span{
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    
+}
+
+.technical_heading{
+    box-sizing: border-box;
+    margin: 25px auto;
+   
+    padding: 20px auto;
+}
+
+
+.datast_text_technical>a{
+    text-decoration: none;
+}
+
+.datast_text_technical>a>span:hover{
+
+color:var(--link-color); }
+
+
+    .datast_text_technical>span{
+        color: var(--tech);
+    }
+    .datast_text_technical>span:hover{
+        color: var(--link-color);
+    }
+
+    @media screen and (max-width:560px) {
+        .technical_text{
+            width: auto;
+        }
+    }
+    

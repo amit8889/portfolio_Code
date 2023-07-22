@@ -1,0 +1,9 @@
+.footer-container{
+    max-width: 700px;
+   
+}
+.foothome{
+    z-index: 1;
+    opacity: .1;
+    background-color: yellowgreen !important;
+}

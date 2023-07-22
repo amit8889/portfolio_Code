@@ -1,0 +1,67 @@
+
+
+.certificate_text{
+    border-radius: 5px;
+background-image: url('../../assets/Home/bg.jpg');
+box-sizing: border-box;
+color: white;
+box-shadow:0 0  15px gray;
+width:90%;
+margin-top: 30px;
+
+}
+
+.certificate_template{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+#title_certificate{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    opacity: .8;
+}
+.templateimage{
+    width: 20%;
+    min-width: 350px;
+    margin: 20px 20px;
+  
+}
+
+.templateimage>div>a{
+    color: var(--project-dec);
+    text-decoration: none;
+    transition: all .5s;
+}
+
+
+.templateimage>h1{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    margin: 15px auto;
+    color: var(--tech);
+    
+}
+.templateimage>div>a>p{
+    font-size: 1rem;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width:560px) {
+    .certificate_text{
+        width: auto;
+    }
+   
+    .certificate_template{
+        margin-left: 10px;
+    }
+    .templateimage{
+        margin: 0;
+    }
+  
+}

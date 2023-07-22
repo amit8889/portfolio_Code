@@ -1,0 +1,85 @@
+.navbar_conatiner{
+    min-width: 170px;
+    position: fixed;
+    z-index: 1000000000000;
+    right: 0;
+    top :10px;
+  
+}
+.navimg{
+    position:absolute;
+    right:10px;
+    cursor: pointer;
+   top: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 62px ;
+    padding: 10px;
+    word-wrap: break-word;
+    background-color:black;
+}
+.links>a{
+   text-decoration: none;
+   color:var(--heading);
+   margin-top: 5px;
+   border-bottom: 1px solid var(--tech);
+   transition: all .3s;
+}
+.links>a:nth-child(10){
+    color: blueviolet;
+}
+.links>a:hover{
+    color: var(--project-dec);
+}
+.admin>input{
+    max-width: 170px;
+    height: 31px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 0;
+    color: blueviolet;
+    background: rgb(229, 229, 168);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.admin>button{
+   cursor: pointer;
+    font-size: 21px;
+    font-weight: 600;
+   margin-right: 15px;
+   padding: 4px 15px;
+    background-color: rgba(220, 187, 252, 0.836);
+   color: rgb(247, 48, 48);
+    border: none;
+    border-radius: 14px;
+    outline: none;
+}
+.admin>img{
+    cursor: pointer;
+    width:25px;
+   
+    border-radius: 50%;
+    transition: all .2;
+
+}
+.admin>img:hover{
+    background-color: var(--project-dec);
+   
+    width:30px
+    
+    
+}
+
+@media screen and (max-width:400px) {
+    .navbar_conatiner{
+        min-width:200px;
+    }
+    .admin>input{
+        min-width: 180px;
+    }
+    
+}

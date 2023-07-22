@@ -1,0 +1,155 @@
+.contact_container>h1{
+    text-align: center;
+    font-weight: 950;
+    color: var(--heading);
+
+}
+.underline_style_contact{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.underline_style_contact>div{
+    margin: 0;
+    padding: 0;
+   
+    height: 10px;
+    width: 250px;
+}
+.underline_style_contact>div>hr{
+   height: 1.5px;
+    background-color:var(  --dark-orange);
+}
+.transform_effect{
+    transition: all .5s;
+}
+.transform_effect:hover{
+   
+    transform: translateY(-10px);
+}
+
+.contact_container{
+    box-sizing: border-box;
+    padding: 20px 0;
+   
+   
+}
+
+textarea{
+    resize:vertical;
+    height: 10vmax;
+    min-height: 7vmax;
+    max-height: 15vmax;
+    width: 25vmax;
+    
+}
+.contact{
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contact_form{
+    margin: auto 0;
+   display: flex;
+    width: 90%;
+    border-radius: 5px;
+    padding: 35px 30px 30px 30px;
+   background-image: url('../../assets/Home/bg.jpg');
+   min-height: 30rem;
+    box-shadow: 0 0 10px rgb(119, 108, 108);
+   
+   
+
+}
+form{
+   width: 100%;
+   text-align: center;
+}
+form>label{
+   width:70%;
+   text-align: left;
+   font-size: 1.1rem;
+   margin: 0;
+   padding: 0;
+   color:var(--project-dec);
+   font-family: 'Roboto';
+}
+
+form>input{
+       width: 70%;
+       margin: 0 auto 15px auto;
+       outline: none;
+       border: 1px solid rgb(119, 108, 108);
+       border-radius: 10px;
+       padding: 4px;
+       height: 2.2rem;
+       font-size: .8rem ;
+       font-family: 'Poppins Light';
+       
+}
+form>input:hover,textarea:hover{
+    border-color: red;
+}
+textarea{
+    font-size: .8rem ;
+    height: 8rem;
+    width: 70%;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.contactbtn{
+    margin-top: 20px;
+   
+    align-items:flex-start;
+}
+@media screen and (max-width:1040px){
+    .contact_form{
+       
+        max-width:90vmax;}
+        form>input{
+            width: 85%;
+           
+           }
+     form>label{
+        width: 85%;}
+        textarea{
+            
+           
+            width: 85%;
+        }
+       
+}
+@media screen and (max-width:600px){
+    .contact_form{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;}
+
+
+        form>input{
+            width: 97%;
+            margin: 0 auto 15px auto;
+           }
+     form>label{
+        width: 97%;}
+        textarea{
+            
+           
+            width: 97%;
+        }
+}
+
+
+
+

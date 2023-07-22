@@ -1,0 +1,82 @@
+.education_text{
+   
+    border-radius: 5px;
+    background-image: url('../../assets/Home/bg.jpg');
+    box-sizing: border-box;
+    color: white;
+    box-shadow:0 0  15px gray;
+    width:90%;
+    margin-top: 30px;
+  
+   
+   
+
+}
+
+.education_container{
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.graduation{
+    box-sizing: border-box;
+    margin:30px 0 10px 5rem;
+    text-align: left;
+}
+.post{
+    font-family: "Roboto" !important;
+    font-size: 1.8rem !important;
+    color:var(--tech);
+}
+.post:hover{
+    color:var(--link-color) !important;
+}
+.collage_name{
+    font-size: 1.2rem ;
+    font-family: 'Roboto';
+    margin: 7px 0px auto;
+    opacity: .9;
+}
+.time,.branch,.educationmark{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin: 0px 5pxpx;
+    opacity: .7;
+}
+.eduction_imgsecton{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:560px) {
+    .education_text{
+        width: 100% !important;
+    }
+
+   
+    .post{
+      
+        font-size: 1.6rem !important;
+    }
+    .collage_name{
+        font-size: 1.2rem ;
+       
+    }
+    .time,.branch,.educationmark{
+       
+        font-size: .9rem;
+        
+    }
+    
+}
+@media screen and (max-width:600px) {.graduation{
+        
+    margin:30px 0 10px 1.6rem;
+    
+}}

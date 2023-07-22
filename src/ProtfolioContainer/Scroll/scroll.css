@@ -1,0 +1,25 @@
+.scrolldown{
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 15px;
+    position:absolute;
+    cursor:pointer;
+   border-radius: 50px;
+   
+   transition: all 0.5s linear;
+    z-index: 100;
+}
+.scrolldown:hover{
+    width: 70px;
+    height: 70px;
+    bottom: 45px;
+    right: 20px;
+    
+   
+}
+@media screen and (max-width:480px) {
+    .scrolldown{
+        display: none;
+    }
+}

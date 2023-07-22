@@ -1,0 +1,152 @@
+.project_text{
+   
+    border-radius: 5px;
+    background-image: url('../../assets/Home/bg.jpg');
+    box-sizing: border-box;
+    
+    box-shadow:0 0  15px gray;
+    width:90%;
+    margin-top: 30px;
+   
+  
+    
+
+}
+.project_template>h1{
+     color: var(--tech);;
+}
+
+.project_container{
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_template{
+    width: 30%;
+    min-width: 350px;
+    margin: 20px 20px;
+}
+.certificate_template_wrap{
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+    margin-left: 10px;
+    max-height: 800px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.projectlink{
+    display: flex;
+    margin: 13px 0;
+}
+.projectlink>a{
+    color: var(--link-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Roboto';
+    font-size: 22px;
+    margin-right: 20px;
+    transition: all .5s;
+ 
+    
+}
+.projecttech{
+    
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:16px;
+    color:var(--heading);
+    opacity: 1;
+    font-weight: 600;
+   
+}
+.projectdec{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1rem;
+    opacity: .8;
+    color: var(--project-dec);
+}
+.projectlink>a:hover{
+    color: var(--hover-link);
+    transform: translateY(-4px);
+}
+
+
+
+.project_template>h1{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin: 15px auto;
+    
+}
+.project_template>div>a>p{
+    font-size: 1rem;
+    
+    font-family: 'Roboto'
+}
+
+.project_template>div>a>div>p{
+    margin: 6px 20px;
+    margin-left: 0;
+}
+
+
+.projectTechnology>p,h6{
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto";
+}
+.projectTechnology>p{
+   
+    transform: translateY(-4px);
+}
+.projectTechnology>p:hover{
+    color: #FF5823;;
+}
+#template_certificate>div>p:hover{
+    color: #FF5823;
+}
+@media screen and (max-width:560px) {
+    .project_text{
+        width: 100%;
+        
+    }
+    .certificate_template_wrap{
+        padding: 0;
+    }
+    .project_template{
+margin: 20px 0;
+margin-left: 15px;
+    }
+}
+
+
+
+/*internship component css*/
+.internship_duration{
+    opacity: .6;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-left: 1rem;
+}
+.internship_date{
+    opacity: .5;
+    display: block;
+    margin-bottom: -15px;
+    margin-top: -10px;
+  
+   
+}
+
+.color_interRole{
+   
+ 
+}
